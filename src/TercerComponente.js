@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import PropTypes from 'prop-types';
 
 export default function TercerComponente({nombre, apellidos, ficha}) {
 
@@ -17,4 +18,11 @@ export default function TercerComponente({nombre, apellidos, ficha}) {
         </ul>
     </div>
   )
+}
+
+//Validación de props
+TercerComponente.propTypes = {
+    nombre: PropTypes.string.isRequired,
+    apellidos: PropTypes.string.isRequired,
+    ficha: PropTypes.object
 }

@@ -13,6 +13,8 @@ function App() {
     alergias: "Ninguna"
   }
 
+  var numero = 3;
+
   return (
     <div className="App">
       <header className="App-header">
