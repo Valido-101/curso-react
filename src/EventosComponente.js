@@ -18,6 +18,14 @@ export const EventosComponente = () => {
         console.log("Has salido de la caja");
     }
 
+    const handlerOnFocus = (e) => {
+        console.log("Estás dentro del input, mete tu nombre")
+    }
+
+    const handlerOnBlur = (e) => {
+        console.log("Estás fuera");
+    }
+
   return (
     <div>
         <h1>Eventos en React</h1>
@@ -36,6 +44,10 @@ export const EventosComponente = () => {
             {/*Evento on mouse enter*/}
             Pasa por encima!!
         </div>
+
+        <p>
+            <input type="text" onFocus={handlerOnFocus} onBlur={handlerOnBlur} placeholder="Introduce tu nombre"/>
+        </p>
         
     </div>
   )
