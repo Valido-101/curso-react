@@ -1,3 +1,18 @@
+# Curso-react en Udemy
+
+## Entorno de desarrollo
+
+Visual Studio Code + extensión ES7+ React/Redux/React-Native snippets
+Navegador Mozilla Firefox + extensión React Developer Tools
+Nodejs
+
+## Primeros pasos
+
+Ejecutar el comando de npx (viene dentro de npm) que nos creará el proyecto de react
+```
+npx create-react-app nombre-app
+```
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
