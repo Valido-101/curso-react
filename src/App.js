@@ -3,6 +3,7 @@ import './App.css';
 import MiComponente from './MiComponente';
 import { SegundoComponente } from './SegundoComponente';
 import TercerComponente from './TercerComponente';
+import { EventosComponente } from './EventosComponente';
 
 function App() {
 
@@ -22,14 +23,17 @@ function App() {
         <p>
           Bienvenido al master de react
         </p>
-
-        <hr/>
-        <TercerComponente nombre="Jesús" apellidos="Valido Zafra" ficha={ficha_medica}/>
-        <hr/>
-        {/*Cargar mi primer componente*/}
-        <SegundoComponente/>
-        <hr/>
-        <MiComponente/>
+        <div className='componentes'>
+          <hr/>
+          <EventosComponente/>
+          <hr/>
+          <TercerComponente nombre="Jesús" apellidos="Valido Zafra" ficha={ficha_medica}/>
+          <hr/>
+          {/*Cargar mi primer componente*/}
+          <SegundoComponente/>
+          <hr/>
+          <MiComponente/>
+        </div>
       </header>
     </div>
   );
