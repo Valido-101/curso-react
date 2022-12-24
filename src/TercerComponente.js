@@ -26,3 +26,9 @@ TercerComponente.propTypes = {
     apellidos: PropTypes.string.isRequired,
     ficha: PropTypes.object
 }
+
+//Valores por defecto
+TercerComponente.defaultProps = {
+    nombre: "El defecto",
+    apellidos: "Por defecto"
+}
