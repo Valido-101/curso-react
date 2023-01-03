@@ -12,6 +12,7 @@ function MiComponente(){
 const MiComponente = () => {
 
     //Las variables se pueden pasar de un componente a otro
+    
     const nombre = "Jesus";
     const web = "jesusvalidoweb.es";
 
