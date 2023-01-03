@@ -2,7 +2,7 @@
   "name": "01-primeros-pasos",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Valido-101.github.io/curso-react-primeros-pasos",
+  "homepage": "http://Valido-101.github.io/curso-react-primeros-pasos",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
