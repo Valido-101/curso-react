@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/curso-react-primeros-pasos/static/css/main.53f914ec.css",
+    "main.js": "/curso-react-primeros-pasos/static/js/main.6ab91067.js",
+    "static/media/logo.svg": "/curso-react-primeros-pasos/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/curso-react-primeros-pasos/index.html",
+    "main.53f914ec.css.map": "/curso-react-primeros-pasos/static/css/main.53f914ec.css.map",
+    "main.6ab91067.js.map": "/curso-react-primeros-pasos/static/js/main.6ab91067.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.53f914ec.css",
+    "static/js/main.6ab91067.js"
+  ]
+}
